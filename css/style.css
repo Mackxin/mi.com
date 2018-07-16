@@ -1,0 +1,85 @@
+body,html,div,span,p,ul,li,a,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.wrapper-header{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.wrapper-header .header{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.wrapper-header .header .header-l{
+    float: left;
+}
+.wrapper-header .header .header-l ul li{
+    float: left;
+}
+.wrapper-header .header .header-l ul li a,
+.wrapper-header .header .header-r ul li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #b0b0b0;
+    margin: 0 .5em;
+    position: relative;
+}
+.wrapper-header .header .header-l ul li a::after,
+.wrapper-header .header .header-r ul li a::after{
+    content: "|";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -.7em;
+    color: #424242;
+}
+.wrapper-header .header .header-l ul li:last-child a::after{
+    content: "";
+}
+.wrapper-header .header .header-l ul li a:hover,
+.wrapper-header .header .header-r ul li a:hover{
+    color: #fff;
+}
+.wrapper-header .header .header-r{
+    float: right;
+}
+.wrapper-header .header .header-r ul{
+    float: left;
+}
+.wrapper-header .header .header-r ul li{
+    float: left;
+}
+.wrapper-header .header .header-r>a{
+    float: left;
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #b0b0b0;
+}
+.wrapper-header .header .header-r>a:hover{
+    background-color: #fff;
+    color: #ff6700;
+}
+.wrapper-header .header .header-r>a svg{
+    width: 16px;
+    height: 16px;
+    vertical-align: -4px;
+}
+/* 顶部导航区域结束 */
+
+
