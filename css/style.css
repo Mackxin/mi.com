@@ -33,7 +33,7 @@ ul{
     height: 40px;
     line-height: 40px;
     color: #b0b0b0;
-    margin: 0 .5em;
+    margin: 0 .6em;
     position: relative;
 }
 .wrapper-header .header .header-l ul li a::after,
@@ -70,6 +70,7 @@ ul{
     text-align: center;
     line-height: 40px;
     color: #b0b0b0;
+    background: #424242;
 }
 .wrapper-header .header .header-r>a:hover{
     background-color: #fff;
@@ -81,5 +82,103 @@ ul{
     vertical-align: -4px;
 }
 /* 顶部导航区域结束 */
+
+.wrapper-nav{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.wrapper-nav .logo{
+    width: 62px;
+    float: left;
+}
+.wrapper-nav .logo img{
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    margin-top: 22px;
+}
+.wrapper-nav .naver{
+    width: 850px;
+    float: left;
+}
+.wrapper-nav .naver ul{
+    width: 820px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 165px;
+    font-size: 16px;
+}
+.wrapper-nav .naver ul li{
+    float: left;
+}
+.wrapper-nav .naver ul li a{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.wrapper-nav .naver ul li a:hover{
+    color: #ff6700;
+}
+.wrapper-nav .search{
+    width: 296px;
+    height: 50px;
+    float: right;
+    position: relative;
+    margin-top: 25px;
+}
+.wrapper-nav .search .search-text{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    z-index: 1;
+    width: 223px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+}
+.wrapper-nav .search span{
+    position: absolute;
+    padding: 0 5px;
+    font-size: 12px;
+    background: #eee;
+    color: #757575;
+    z-index: 2;
+    transition: .2s;
+    cursor: pointer;
+}
+.wrapper-nav .search span:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+.wrapper-nav .search .mi8{
+    top: 16px;
+    right: 140px;
+}
+.wrapper-nav .search .mix2s{
+    top: 16px;
+    right: 60px;
+}
+.wrapper-nav .search .search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    color: #616161;
+    transition: .2s;
+    background-color: #fff;
+}
+.wrapper-nav .search .search-btn:hover{
+    background-color: #ff6700;
+    color: #fff;
+    border: 1px solid #ff6700;
+}
+/* logo和搜索以及nav区域结束 */
 
 
