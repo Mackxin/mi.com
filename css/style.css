@@ -181,4 +181,48 @@ ul{
 }
 /* logo和搜索以及nav区域结束 */
 
+.wrapper-slider{
+    width: 1226px;
+    height: 460px;
+    border: 1px solid purple;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper-slider img{
+    width: 100%;
+}
+.wrapper-slider .slider-box{
+    width: 234px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+}
+.wrapper-slider ul{
+    width: 234px;
+    height: 420px;
+    margin-top: 20px;
+}
+.wrapper-slider ul li{
+    position: relative;
+}
+.wrapper-slider ul li a{
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+}
+.wrapper-slider ul li a svg{
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    color: rgba(255,255,255,0.5);
+}
+.wrapper-slider ul li:hover{
+    background-color: #ff6700;
+}
+
+/* 详细产品和轮播图区域结束 */
 
