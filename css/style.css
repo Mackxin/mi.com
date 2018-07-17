@@ -485,3 +485,16 @@ ul{
     border-top-color: #e53935;
     margin-right: 0px;
 }
+
+/* 小米闪购区域结束 */
+
+.wrapper-add{
+    width: 1226px;
+    height: 120px;
+    margin: -20px auto;
+}
+.wrapper-add img{
+    width: 100%;
+}
+
+/* 小米广告区域结束 */
