@@ -300,3 +300,188 @@ ul{
 }
 
 /* 小区域内容结束 */
+
+.wrapper-shangou{
+    width: 1226px;
+    height: 438px;
+    margin: 14px auto;
+}
+.wrapper-shangou .sh{
+    width: 1226px;
+    height: 58px;
+    position: relative;
+}
+.wrapper-shangou .sh h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.wrapper-shangou .sh .zuoyou{
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 75px;
+    height: 25px;
+}
+.wrapper-shangou .sh .zuoyou a{
+    display: block;
+    width: 36px;
+    height: 24px;
+    float: left;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+} 
+
+.wrapper-shangou .sh .zuoyou a>svg{
+    padding: 4px 10px;
+    color: #b0b0b0;
+}
+
+.wrapper-shangou .sh .zuoyou a:hover>svg{
+    color: #ff6700;
+}
+.wrapper-shangou .sh .zuoyou a:first-child>svg,
+.wrapper-shangou .sh .zuoyou a:hover:first-child>svg{
+    color: #e0e0e0;
+    cursor: default;
+}
+.wrapper-shangou .sh .zuoyou a:last-child{
+    right: 0;
+}
+.wrapper-shangou .shnr{
+    width: 1226px;
+    height: 340px;
+   display: flex;
+   flex-direction: row;
+}
+.wrapper-shangou .shnr .sh12{
+    height: 300px;
+    background: #f1eded;
+    width: 234px;
+    margin-right: 14px;
+    border-top-color: #e53935;
+    padding-top: 39px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.wrapper-shangou .shnr .sh12 .sh12-12{
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 15px;
+    text-align: center;
+}
+.wrapper-shangou .shnr .sh12 .sh12-shandian{
+    width: 34px;
+    height: 53px;
+    margin: 25px auto;
+}
+.wrapper-shangou .shnr .sh12 .sh12-jieshu{
+    text-align: center;
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+}
+.wrapper-shangou .shnr .sh12 .sh12-time{
+    width: 168px;
+    margin: 28px auto;
+    height: 46px;
+}
+.wrapper-shangou .shnr .sh12 .sh12-time div{
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    line-height: 46px;
+    color: #fff;
+}
+.wrapper-shangou .shnr .sh12 .sh12-time .sh12-mh{
+    width: 15px;
+    height: 46px;
+    color: #605751;
+}
+.wrapper-shangou .shnr .sh12 .sh12-time .sh12-box{
+    width: 46px;
+    height: 46px;
+    background-color: #605751;
+}
+.wrapper-shangou .shnr .sh-con{
+    width: 980px;
+    height: 340px;
+}
+.wrapper-shangou .shnr .sh-con ul li{
+    width: 234px;
+    height: 339px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    text-align: center;
+    background: rgba(0,0,0,0.02);
+    float: left;
+    margin-right: 14px;
+    position: relative;
+}
+.wrapper-shangou .shnr .sh-con ul li a img{
+    width: 160px;
+    height: 166px;
+    margin-top: 44px;
+}
+.wrapper-shangou .shnr .sh-con ul li h3{
+    position: absolute;
+    top: 220px;
+    left: -18px;
+    margin: 0 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 234px;
+}
+.wrapper-shangou .shnr .sh-con ul li p{
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+}
+.wrapper-shangou .shnr .sh-con ul li p a{
+    color: #b0b0b0;
+    font-size: 12px;
+    position: absolute;
+    top: 245px;
+    left: 2px;
+}
+.wrapper-shangou .shnr .sh-con ul li p.sh-yuan{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 272px;
+    left: 68px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.wrapper-shangou .shnr .sh-con ul li p.sh-yuan span{
+    font-size: 12px;
+}
+.wrapper-shangou .shnr .sh-con ul li p.sh-yuan del{
+    color: #b0b0b0;
+}
+.wrapper-shangou .shnr .sh-con ul li p span{
+    color: #ff6709;
+    font-size: 14px;
+}
+.wrapper-shangou .shnr .sh-con ul li h3 a{
+    text-align: center;
+}
+.wrapper-shangou .shnr .sh-con ul li a{
+    display: block;
+    width: 234px;
+    height: 339px;
+    color: #212121;
+}
+.wrapper-shangou .shnr .sh-con ul li:nth-child(1){
+    border-top-color: #ffac13;
+}
+.wrapper-shangou .shnr .sh-con ul li:nth-child(2){
+    border-top-color: #83c44e;
+}
+.wrapper-shangou .shnr .sh-con ul li:nth-child(3){
+    border-top-color: #2196f3;
+}
+.wrapper-shangou .shnr .sh-con ul li:nth-child(4){
+    border-top-color: #e53935;
+    margin-right: 0px;
+}
