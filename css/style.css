@@ -184,7 +184,6 @@ ul{
 .wrapper-slider{
     width: 1226px;
     height: 460px;
-    border: 1px solid purple;
     margin: 0 auto;
     position: relative;
 }
@@ -226,3 +225,76 @@ ul{
 
 /* 详细产品和轮播图区域结束 */
 
+.wrapper-box{
+    width: 1226px;
+    height: 170px;
+    margin: 15px auto;
+}
+.wrapper-box .boxs{
+    width: 234px;
+    height: 170px;
+    float: left;
+    background-color: #5f5750;
+}
+.wrapper-box .boxs ul li{
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 4px;
+}
+.wrapper-box .boxs ul li a{
+    width: 70px;
+    height: 64px;
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgba(255,255,255,0.7);
+    transition: color .2s;
+    position: relative;
+}
+.wrapper-box .boxs ul li a:hover{
+    color: #fff;
+}
+.wrapper-box .boxs ul li a>svg{
+    position: absolute;
+    display: block;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    top: 22px;
+    left: 22px;
+}
+.wrapper-box .boxs ul li a>span{
+    position: absolute;
+    top: 54px;
+    left: 10px;
+    font-size: 12px;
+}
+.wrapper-box .boxs ul li:nth-child(3) a>span{
+    left: 15px;
+}
+.wrapper-box .boxs ul li:nth-child(4) a>span{
+    left: 16px;
+}
+.wrapper-box .boxer{
+    width: 976px;
+    height: 170px;
+    float: right;
+}
+.wrapper-box .boxer ul li{
+    float: left;
+}
+.wrapper-box .boxer ul li a{
+    display: block;
+    width: 316px;
+    height: 170px;
+}
+.wrapper-box .boxer ul li:nth-child(2) a,
+.wrapper-box .boxer ul li:nth-child(3) a{
+    margin-left: 14px;
+}
+.wrapper-box .boxer ul li a img{
+    width: 100%;
+}
