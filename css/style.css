@@ -580,22 +580,27 @@ ul{
     color: #ff6700;
 }
 
-.content .con-shouji .shouji-con{
+.content .con-shouji .shouji-con,
+.content .con-jiadian .shouji-con{
     width: 1226px;
     height: 614px;
 }
-.content .con-shouji .shouji-con .shouji-con-l{
+.content .con-shouji .shouji-con .shouji-con-l,
+.content .con-jiadian .shouji-con .shouji-con-l{
     width: 234px;
     height: 614px;
 }
-.content .con-shouji .shouji-con .shouji-con-l img{
+.content .con-shouji .shouji-con .shouji-con-l img,
+.content .con-jiadian .shouji-con .shouji-con-l img{
     width: 100%;
 }
-.content .con-shouji .shouji-con .shouji-con-r{
+.content .con-shouji .shouji-con .shouji-con-r,
+.content .con-jiadian .shouji-con .shouji-con-r{
     width: 992px;
     height: 614px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li {
+.content .con-shouji .shouji-con .shouji-con-r ul li,
+.content .con-jiadian .shouji-con .shouji-con-r ul li{
     width: 234px;
     height: 300px;
     background-color: #fff;
@@ -604,22 +609,26 @@ ul{
     margin-left: 14px;
     margin-bottom: 14px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li a.shouji-img{
+.content .con-shouji .shouji-con .shouji-con-r ul li a.shouji-img,
+.content .con-jiadian .shouji-con .shouji-con-r ul li a.shouji-img{
     display: block;
     text-align: center;
     padding: 20px 0px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li a>img{
+.content .con-shouji .shouji-con .shouji-con-r ul li a>img,
+.content .con-jiadian .shouji-con .shouji-con-r ul li a>img{
     width: 160px;
     height: 160px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li a.hongmi{
+.content .con-shouji .shouji-con .shouji-con-r ul li a.hongmi,
+.content .con-jiadian .shouji-con .shouji-con-r ul li a.hongmi{
     color: #333;
     text-align: center;
     display: block;
     font-size: 14px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li p{
+.content .con-shouji .shouji-con .shouji-con-r ul li p,
+.content .con-jiadian .shouji-con .shouji-con-r ul li p{
     height: 18px;
     font-size: 12px;
     text-align: center;
@@ -629,15 +638,18 @@ ul{
     white-space: nowrap;
     overflow: hidden;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li p.shouji-yuan{
+.content .con-shouji .shouji-con .shouji-con-r ul li p.shouji-yuan,
+.content .con-jiadian .shouji-con .shouji-con-r ul li p.shouji-yuan{
     color: #ff6700;
     font-size: 14px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li p.shouji-yuan del{
+.content .con-shouji .shouji-con .shouji-con-r ul li p.shouji-yuan del,
+.content .con-jiadian .shouji-con.shouji-con-r ul lu p.shouji-yuan del{
     color: #b0b0b0;
     margin-left: 5px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li .shouji-zhe{
+.content .con-shouji .shouji-con .shouji-con-r ul li .shouji-zhe,
+.content .con-jiadian .shouji-con .shouji-con-r ul li .shouji-zhe{
     width: 64px;
     height: 20px;
     background-color: #e53935;
@@ -658,3 +670,102 @@ ul{
 }
 
 /* 广告区域结束 */
+.content .con-jiadian{
+    width: 1226px;
+    height: 686px;
+    margin: 0 auto;
+}
+.content .con-jiadian .mi-gg{
+    width: 1226px;
+    height: 58px;
+}
+.content .con-jiadian .mi-gg h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.content .con-jiadian .mi-gg .mi-lis ul li{
+    float: left;
+    margin-left: 30px;
+    color: #424242;
+    padding-top: 16px;
+    padding-bottom: 5px;
+}
+.content .con-jiadian .mi-gg .mi-lis ul li.active{
+    color: #ff6700!important;
+    border-bottom: 2px solid #ff6700;
+}
+.content .con-jiadian .shouji-con .shouji-con-l ul li{
+    width: 234px;
+    height: 300px;
+    transition: all .5s;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li{
+    transition: all .5s;
+}
+.content .con-jiadian .shouji-con .shouji-con-l ul li:hover,
+.content .con-jiadian .shouji-con .shouji-con-r ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0,-2px,0);
+}
+.content .con-jiadian .shouji-con .shouji-con-l ul li:last-child{
+    margin-top: 14px;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-you{
+    width: 234px;
+    height: 143px;
+    cursor: pointer;
+    position: relative;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-ztwo a.mi-you-img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 140px;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-ztwo a.mi-you-img img{
+    width: 100%;
+    height: 100%;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-ztwo a.mi-a{
+    position: absolute;
+    top: 42px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90px;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-ztwo p{
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    color: #ff6700;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-zone .mi-liu{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-zone p{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li.mi-zone .mi-you-svg{
+    position: absolute;
+    display: block;
+    top: 34px;
+    right: 30px;
+    font-size: 56px;
+    line-height: 56px;
+    color: #ff6700;
+}
