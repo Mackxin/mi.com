@@ -608,6 +608,7 @@ ul{
     float: left;
     margin-left: 14px;
     margin-bottom: 14px;
+    overflow: hidden;
 }
 .content .con-shouji .shouji-con .shouji-con-r ul li a.shouji-img,
 .content .con-jiadian .shouji-con .shouji-con-r ul li a.shouji-img{
@@ -648,8 +649,8 @@ ul{
     color: #b0b0b0;
     margin-left: 5px;
 }
-.content .con-shouji .shouji-con .shouji-con-r ul li .shouji-zhe,
-.content .con-jiadian .shouji-con .shouji-con-r ul li .shouji-zhe{
+.content .con-shouji .shouji-con .shouji-con-r ul li div.shouji-zhe,
+.content .con-jiadian .shouji-con .shouji-con-r ul li div.shouji-zhe{
     width: 64px;
     height: 20px;
     background-color: #e53935;
@@ -660,6 +661,7 @@ ul{
     position: absolute;
     left: 50%;
     margin-left: -32px;
+    top: 0;
 }
 
 /* 手机区域结束 */
@@ -774,4 +776,37 @@ ul{
     font-size: 56px;
     line-height: 56px;
     color: #ff6700;
+}
+
+.content .con-jiadian .shouji-con .shouji-con-r ul li div{
+    width: 234px;
+    height: 0;
+    background-color: #ff6700;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: .5s;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li div a{
+    display: block;
+    width: 234px;
+    height: 76px;
+    padding: 8px 30px;
+    box-sizing: border-box;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li div a span:first-child{
+    color: #FFF;
+    font-size: 12PX;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li div a span:last-child{
+    color: rgba(255,255,255,0.6);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+}
+.content .con-jiadian .shouji-con .shouji-con-r ul li:hover div.boxser{
+    height: 76px;
+    bottom: 0px;
+    display: block;
 }
