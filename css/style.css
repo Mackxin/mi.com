@@ -813,12 +813,12 @@ ul{
 
 /* 家电类结束 */
 
-.con-tuijian .tuijian-lis{
+.content .con-tuijian .tuijian-lis{
     width: 1226px;
     height: 300px;
     margin: 0 auto;
 }
-.con-tuijian .tuijian-lis ul li{
+.content .con-tuijian .tuijian-lis ul li{
     position: relative;
     width: 234px;
     height: 300px;
@@ -828,21 +828,21 @@ ul{
     float: left;
     transition: all .2s;
 }
-.con-tuijian .tuijian-lis ul li:last-child{
+.content .con-tuijian .tuijian-lis ul li:last-child{
     margin-right: 0px;
 }
-.con-tuijian .tuijian-lis ul li:hover{
+.content .con-tuijian .tuijian-lis ul li:hover{
     transform: translate3d(0px, -2px, 0px);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
 }
-.con-tuijian .tuijian-lis ul li a.tuijian-img{
+.content .con-tuijian .tuijian-lis ul li a.tuijian-img{
     width: 140px;
     height: 140px;
     display: block;
     padding: 40px 0 15px;
     margin: 0 auto;
 }
-.con-tuijian .tuijian-lis ul li a.tuijian-wenzi{
+.content .con-tuijian .tuijian-lis ul li a.tuijian-wenzi{
     color: #333;
     height: 18px;
     text-overflow: ellipsis;
@@ -853,18 +853,100 @@ ul{
     margin: 0 auto;
     font-size: 14px;
 }
-.con-tuijian .tuijian-lis ul li p{
+.content .con-tuijian .tuijian-lis ul li p{
     font-size: 14px;
 }
-.con-tuijian .tuijian-lis ul li p.tuijian-yuan{
+.content .con-tuijian .tuijian-lis ul li p.tuijian-yuan{
     color: rgb(255, 103, 0);
     margin-top: 10px;
     margin-bottom: 10px;
     height: 20px;
 }
-.con-tuijian .tuijian-lis ul li p.tuijian-pin{
+.content .con-tuijian .tuijian-lis ul li p.tuijian-pin{
     color: rgb(117, 117, 117);
     font-size: 14px;
 }
 
 /* 为你推荐结束 */
+.content .con-repin{
+    width: 1226px;
+    height: 473px;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+.content .con-repin .con-repin-h2 h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.content .con-repin .con-repin-lis{
+    width: 1226px;
+    height: 415px;
+}
+.content .con-repin .con-repin-lis ul li{
+    float: left;
+    width: 296px;
+    height: 415px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    transition: all .2s;
+}
+.content .con-repin .con-repin-lis ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.content .con-repin .con-repin-lis ul li:first-child{
+    margin-left: 0px;
+}
+.content .con-repin .con-repin-lis ul li a{
+    display: block;
+}
+.content .con-repin .con-repin-lis ul li a.repin-img{
+    margin-bottom: 28px;
+}
+.content .con-repin .con-repin-lis ul li a img{
+    width: 296px;
+    height: 220px;
+}
+.content .con-repin .con-repin-lis ul li a.repin-wenzi{
+    height: 72px;
+    color: #333;
+    margin: 0 28px 22px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    overflow: hidden;
+}
+.content .con-repin .con-repin-lis ul li p.repin-pj{
+    height: 18px;
+    margin: 0 28px 8px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.content .con-repin .con-repin-lis ul li div{
+    position: relative;
+    margin: 0 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content .con-repin .con-repin-lis ul li div a{
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content .con-repin .con-repin-lis ul li div span{
+    position: absolute;
+    top: 0;
+    left: 91px;
+    color: #e0e0e0;
+}
+.content .con-repin .con-repin-lis ul li div span.repin-yuan{
+    top: 0;
+    left: 100px;
+    color: #ff6700;
+    font-size: 14px;
+}
