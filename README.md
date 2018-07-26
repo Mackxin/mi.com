@@ -15,6 +15,8 @@
 > 2018-07-21-08:53,内容展示区域家电类hover特效显示评价，修复一些其他bug<br>
 > 2018-07-22-06:31,内容展示区域为你推荐代码完成，还完成了hover特效<br>
 > 2018-07-22-10:25,内容展示区域热评产品代码完成，还完成了hover特效<br>
+> 2018-07-26-15:38,生病回家休养了几天，好点了，开始接下来的内容区域代码<br>
+> 2018-07-26-17:22,内容展示区域内容代码完成，依旧增加了hover特效哈<br>
 
 ```
 礼物    icon-liwu
@@ -34,6 +36,12 @@ headset-耳机    icon-headseterji
 购物车  icon-gouwuche
 定位    icon-dingwei
 灵接触循环  icon-lingjiechuxunhuan
+```
+
+```
+<svg class="icon" aria-hidden="true">
+    <use xlink:href="#icon-xxx"></use>
+</svg>
 ```
 ![icon](img/icon.png)
 

@@ -950,3 +950,120 @@ ul{
     color: #ff6700;
     font-size: 14px;
 }
+
+/* 热品产品结束 */
+
+.content .con-neirong{
+    width: 1226px;
+    height: 478px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.content .con-neirong .neirong-h2 h2{
+    height: 58px;
+    line-height: 58px;
+    color: #333;
+    font-weight: 200;
+}
+.content .con-neirong .neirong-lis{
+    width: 1226px;
+    height: 420px;
+}
+.content .con-neirong .neirong-lis ul li{
+    float: left;
+    width: 296px;
+    height: 420px;
+    background-color: #fff;
+    margin-left: 14px;
+    transition: .2s;
+    padding-top: 45px;
+    box-sizing: border-box;
+    position: relative;
+}
+.content .con-neirong .neirong-lis ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.content .con-neirong .neirong-lis ul li:hover>a{
+    display: block;
+}
+.content .con-neirong .neirong-lis ul li:first-child{
+    margin-left: 0px;
+}
+.content .con-neirong .neirong-lis ul li h2{
+    margin: 0 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffac13;
+}
+.content .con-neirong .neirong-lis ul li h4{
+    text-align: center;
+}
+.content .con-neirong .neirong-lis ul li h4>a{
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.content .con-neirong .neirong-lis ul li p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px 48px 10px;
+}
+.content .con-neirong .neirong-lis ul li p.neirong-wenzi a{
+    color: #b0b0b0;
+}
+.content .con-neirong .neirong-lis ul li p.neirong-yuan a{
+    color: #333;
+    font-size: 14px;
+}
+.content .con-neirong .neirong-lis ul li div.neirong-img{
+    text-align: center;
+    margin-top: 10px;
+}
+.content .con-neirong .neirong-lis ul li .neirong-dian{
+    width: 100px;
+    height: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 16px;
+}
+.content .con-neirong .neirong-lis ul li .neirong-dian span{
+    width: 8px;
+    height: 8px;
+    background-color: #b0b0b0;
+    float: left;
+    display: block;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+.content .con-neirong .neirong-lis ul li .neirong-dian span:first-child{
+    border: 2px solid #ff6700;
+    background-color: #fff;
+    margin-top: -2px;
+}
+.content .con-neirong .neirong-lis ul li>a{
+    width: 20px;
+    height: 24px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    background-color: rgba(66,66,66,0.2);
+    margin-top: -24px;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+.content .con-neirong .neirong-lis ul li a.nr-fix-l{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.content .con-neirong .neirong-lis ul li a.nr-fix-r{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
