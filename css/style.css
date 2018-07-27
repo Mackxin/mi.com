@@ -1156,7 +1156,7 @@ ul{
 /* 内容展示区域代码全部完成 */
 .footer{
     width: 100%;
-    height: 438px;
+    height: 272px;
 }
 .footer .footer-top{
     width: 1226px;
@@ -1203,7 +1203,6 @@ ul{
 .footer .footer-con ul{
     width: 960px;
     height: 112px;
-    border: 1px solid red;
     float: left;
 }
 .footer .footer-con ul li{
@@ -1261,3 +1260,58 @@ ul{
 }
 
 /* 页脚内容区域代码完成 */
+.footer-bottom{
+    width: 100%;
+    height: 108px;
+    background-color: #fafafa;
+    padding: 30px 0;
+}
+.footer-bottom .footer-neirong{
+    margin: 0 auto;
+    width: 1226px;
+    height: 57px;
+}
+.footer-bottom .footer-neirong .footer-l{
+    width: 780px;
+    float: left;
+}
+.footer-bottom .footer-neirong .footer-l img{
+    float: left;
+    margin-right: 5px;
+}
+.footer-bottom .footer-neirong .footer-l p{
+    float: left;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.footer-bottom .footer-neirong .footer-l p a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.footer-bottom .footer-neirong .footer-l p.footer-lis{
+    line-height: 18px;
+}
+.footer-bottom .footer-neirong .footer-l p.footer-lis a,
+.footer-bottom .footer-neirong .footer-l p.footer-lis span{
+    color: #757575;
+    font-size: 12px;
+}
+.footer-bottom .footer-neirong .footer-l p.footer-lis a:hover{
+    color: #ff6700;
+}
+.footer-bottom .footer-neirong .footer-r{
+    float: right;
+}
+.footer-bottom .footer-neirong .footer-r img{
+    width: 83px;
+    height: 28px;
+}
+.footer-bottom .fashao{
+    width: 1226px;
+    height: 19px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+/* 页脚区域结束 */
