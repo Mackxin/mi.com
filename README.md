@@ -50,6 +50,7 @@ headset-耳机    icon-headseterji
 </svg>
 ```
 ![icon](img/icon.png)
+![仿小米首页全图](mi.png)
 
 关注分享，关注导航，关注馨客栈
 
