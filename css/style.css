@@ -538,7 +538,7 @@ ul{
 
 .content{
     width: 100%;
-    height: 5654px;
+    height: 3320px;
     background-color: #f5f5f5;
     padding-top: 22px;
 }
@@ -958,6 +958,7 @@ ul{
     height: 478px;
     margin: 0 auto;
     margin-top: 14px;
+    margin-bottom: 14px;
 }
 .content .con-neirong .neirong-h2 h2{
     height: 58px;
@@ -1080,3 +1081,77 @@ ul{
     top: 50%;
     right: 0;
 }
+
+/* 内容块结束 */
+
+.content .con-shipin{
+    width: 1226px;
+    height: 343px;
+    margin: 0 auto;
+}
+.content .con-shipin .shipin-lis{
+    width: 1226px;
+    height: 285px;
+}
+.content .con-shipin .shipin-lis ul li{
+    width: 296px;
+    height: 285px;
+    float: left;
+    margin-left: 14px;
+    background-color: #fff;
+    transition: all .2s;
+    position: relative;
+}
+.content .con-shipin .shipin-lis ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.content .con-shipin .shipin-lis ul li:first-child{
+    margin-left: 0px;
+}
+.content .con-shipin .shipin-lis ul li a.shipin-img img{
+    width: 296px;
+    height: 180px;
+}
+.content .con-shipin .shipin-lis ul li h3{
+    margin: 22px 0 11px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.content .con-shipin .shipin-lis ul li h3 a{
+    color: #333;
+}
+.content .con-shipin .shipin-lis ul li h3 a:hover{
+    color: #ff6700;
+}
+.content .con-shipin .shipin-lis ul li p{
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.content .con-shipin .shipin-lis ul li span{
+    position: absolute;
+    left: 20px;
+    bottom: 115px;
+    width: 32px;
+    height: 22px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    transition: all .2s;
+    overflow: hidden;
+    text-align: center;
+    line-height: 22px;
+}
+.content .con-shipin .shipin-lis ul li span:hover{
+    background-color: #ff6700;
+    border: 2px solid #ff6700;
+}
+
+
+/* 内容展示区域代码全部完成 */
+
