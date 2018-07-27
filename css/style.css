@@ -1315,3 +1315,33 @@ ul{
 
 
 /* 页脚区域结束 */
+
+.fixed {
+    width: 84px;
+    height: 417px;
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+    z-index: 9999;
+}
+.fixed a{
+    display: block;
+    width: 84px;
+    height: 91px;
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+.fixed a:hover{
+    color: #ff6700;
+}
+.fixed a:last-child{
+    margin-top: 20px;
+}
+.fixed a img{
+    width: 30px;
+    height: 30px;
+    margin: 27px 27px 6px 27px;
+}
