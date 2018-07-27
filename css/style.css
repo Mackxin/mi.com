@@ -538,7 +538,7 @@ ul{
 
 .content{
     width: 100%;
-    height: 5654px;
+    height: 3320px;
     background-color: #f5f5f5;
     padding-top: 22px;
 }
@@ -958,6 +958,7 @@ ul{
     height: 478px;
     margin: 0 auto;
     margin-top: 14px;
+    margin-bottom: 14px;
 }
 .content .con-neirong .neirong-h2 h2{
     height: 58px;
@@ -1079,4 +1080,268 @@ ul{
     position: absolute;
     top: 50%;
     right: 0;
+}
+
+/* 内容块结束 */
+
+.content .con-shipin{
+    width: 1226px;
+    height: 343px;
+    margin: 0 auto;
+}
+.content .con-shipin .shipin-lis{
+    width: 1226px;
+    height: 285px;
+}
+.content .con-shipin .shipin-lis ul li{
+    width: 296px;
+    height: 285px;
+    float: left;
+    margin-left: 14px;
+    background-color: #fff;
+    transition: all .2s;
+    position: relative;
+}
+.content .con-shipin .shipin-lis ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.content .con-shipin .shipin-lis ul li:first-child{
+    margin-left: 0px;
+}
+.content .con-shipin .shipin-lis ul li a.shipin-img img{
+    width: 296px;
+    height: 180px;
+}
+.content .con-shipin .shipin-lis ul li h3{
+    margin: 22px 0 11px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.content .con-shipin .shipin-lis ul li h3 a{
+    color: #333;
+}
+.content .con-shipin .shipin-lis ul li h3 a:hover{
+    color: #ff6700;
+}
+.content .con-shipin .shipin-lis ul li p{
+    height: 18px;
+    margin: 0;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.content .con-shipin .shipin-lis ul li span{
+    position: absolute;
+    left: 20px;
+    bottom: 115px;
+    width: 32px;
+    height: 22px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    transition: all .2s;
+    overflow: hidden;
+    text-align: center;
+    line-height: 22px;
+}
+.content .con-shipin .shipin-lis ul li span:hover{
+    background-color: #ff6700;
+    border: 2px solid #ff6700;
+}
+
+
+/* 内容展示区域代码全部完成 */
+.footer{
+    width: 100%;
+    height: 272px;
+}
+.footer .footer-top{
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer .footer-top ul{
+    padding: 28px 2px;
+}
+.footer .footer-top ul li{
+    width: 243px;
+    height: 25px;
+    float: left;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+.footer .footer-top ul li:last-child{
+    border-right: none;
+}
+.footer .footer-top ul li a{
+    color: #333;
+    transition: .2s;
+}
+.footer .footer-top ul li a svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: -6px;
+}
+.footer .footer-top ul li a:hover{
+    color: #ff6700;
+}
+
+/* 页脚点不完成 */
+
+.footer .footer-con{
+    width: 1226px;
+    height: 192px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.footer .footer-con ul{
+    width: 960px;
+    height: 112px;
+    float: left;
+}
+.footer .footer-con ul li{
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+.footer .footer-con ul li p{
+    line-height: 20px;
+}
+.footer .footer-con ul li p a{
+    color: #757575;
+    font-size: 12px;
+}
+.footer .footer-con ul li p:first-child{
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.footer .footer-con .footer-400{
+    width: 252px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    float: right;
+}
+.footer .footer-con .footer-400 p:first-child{
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.footer .footer-con .footer-400 p{
+    font-size: 12px;
+    color: #616161;
+    text-align: center;
+}
+.footer .footer-con .footer-400 a{
+    display: block;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #ff6700;
+    margin-top: 23px;
+    transition: .2s;
+}
+.footer .footer-con .footer-400 a:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+
+/* 页脚内容区域代码完成 */
+.footer-bottom{
+    width: 100%;
+    height: 108px;
+    background-color: #fafafa;
+    padding: 30px 0;
+}
+.footer-bottom .footer-neirong{
+    margin: 0 auto;
+    width: 1226px;
+    height: 57px;
+}
+.footer-bottom .footer-neirong .footer-l{
+    width: 780px;
+    float: left;
+}
+.footer-bottom .footer-neirong .footer-l img{
+    float: left;
+    margin-right: 5px;
+}
+.footer-bottom .footer-neirong .footer-l p{
+    float: left;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.footer-bottom .footer-neirong .footer-l p a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.footer-bottom .footer-neirong .footer-l p.footer-lis{
+    line-height: 18px;
+}
+.footer-bottom .footer-neirong .footer-l p.footer-lis a,
+.footer-bottom .footer-neirong .footer-l p.footer-lis span{
+    color: #757575;
+    font-size: 12px;
+}
+.footer-bottom .footer-neirong .footer-l p.footer-lis a:hover{
+    color: #ff6700;
+}
+.footer-bottom .footer-neirong .footer-r{
+    float: right;
+}
+.footer-bottom .footer-neirong .footer-r img{
+    width: 83px;
+    height: 28px;
+}
+.footer-bottom .fashao{
+    width: 1226px;
+    height: 19px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+/* 页脚区域结束 */
+
+.fixed {
+    width: 84px;
+    height: 417px;
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+    z-index: 9999;
+}
+.fixed a{
+    display: block;
+    width: 84px;
+    height: 91px;
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+.fixed a:hover{
+    color: #ff6700;
+}
+.fixed a:last-child{
+    margin-top: 20px;
+}
+.fixed a img{
+    width: 30px;
+    height: 30px;
+    margin: 27px 27px 6px 27px;
 }
