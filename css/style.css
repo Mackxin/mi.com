@@ -1154,4 +1154,40 @@ ul{
 
 
 /* 内容展示区域代码全部完成 */
-
+.footer{
+    width: 100%;
+    height: 438px;
+}
+.footer .footer-top{
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer .footer-top ul{
+    padding: 28px 2px;
+}
+.footer .footer-top ul li{
+    width: 243px;
+    height: 25px;
+    float: left;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+.footer .footer-top ul li:last-child{
+    border-right: none;
+}
+.footer .footer-top ul li a{
+    color: #333;
+    transition: .2s;
+}
+.footer .footer-top ul li a svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: -6px;
+}
+.footer .footer-top ul li a:hover{
+    color: #ff6700;
+}
