@@ -979,6 +979,16 @@ ul{
     padding-top: 45px;
     box-sizing: border-box;
     position: relative;
+    border-top: 1px solid #ff6700;
+}
+.content .con-neirong .neirong-lis ul li:nth-child(2){
+    border-top: 1px solid #83c44e;
+}
+.content .con-neirong .neirong-lis ul li:nth-child(3){
+    border-top: 1px solid #e53935;
+}
+.content .con-neirong .neirong-lis ul li:nth-child(4){
+    border-top: 1px solid #2196f3;
 }
 .content .con-neirong .neirong-lis ul li:hover{
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -986,6 +996,9 @@ ul{
 }
 .content .con-neirong .neirong-lis ul li:hover>a{
     display: block;
+}
+.content .con-neirong .neirong-lis ul li:hover>a:hover{
+    background-color: #757575;
 }
 .content .con-neirong .neirong-lis ul li:first-child{
     margin-left: 0px;
